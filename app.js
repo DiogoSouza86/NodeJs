@@ -18,7 +18,6 @@ app.get("/ola/:cargo/:nome/:cor", function(req, res){
 
 }) 
 
-
 app.listen(8081, function(){
     console.log('Servidor rodando na url http://localhost:8081 ')
 })
