@@ -5,7 +5,9 @@ CREATE TABLE usuarios(
 );
 
 INSERT INTO usuarios(nome, email, idade) VALUES (
-    "Away",
-    "email@away",
-    38
+    "Sayuri",
+    "email@sayuri",
+    38    
 );
+
+DELETE FROM usuarios WHERE nome = "Afonso";
